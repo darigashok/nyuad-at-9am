@@ -1,0 +1,1 @@
+# darigashok.github.io
