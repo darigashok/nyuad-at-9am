@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>NYUAD @ 9am by Dariga</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#home">
+            <h1>NYUAD <span> @ </span> 9 am</h1> <!-- Logo -->
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul> <!-- Navigation bar -->
+            <li><a href="#home" data-after="Home">Home</a></li>
+            <li><a href="#film" data-after="film">Film</a></li>
+            <li><a href="#about_campus" data-after="about_campus">About</a></li>
+            <li><a href="#gallery" data-after="gallery">Gallery</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- home Section  -->
+  <section id="home">
+    <div class="home container">
+      <div>
+        <h1>Welcome to <span></span></h1>
+        <h1> the Film Project<span></span></h1> <!-- This label appears gradually when the user visits the website-->
+        <h1>NYU AD @ 9 am <span></span></h1>
+        <a href="#film" type="button" class="cta">Watch Now</a>
+      </div>
+    </div>
+  </section>
+  <!-- End home Section  -->
+
+
+  <!-- film Section -->
+  <section id="film">
+    <div class="film container">
+      <div class="film-header">
+        <h1 class="section-title">30MFF <span>film</span></h1>
+      </div>
+      <p> Click to play to enjoy morning at NYUAD with me!</p>
+      <div class="all-film">
+        <video width = "800px" height="600px"controls> <!-- 30 MFF Video Inserted in the Website-->
+          <source src="d6058_30mff.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+  <!-- End film Section -->
+  <!-- about Section -->
+  <section id="about_campus">
+    <div class="about_campus container">
+      <div class="about-top">
+        <h1 class="section-title"><span>About </span>Campus</h1> <!-- Quick intro about campus-->
+      </div>
+      <div class="about-bottom">
+        <div class="about-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/null/rocket.png"/></div>
+          <h2>Open Since 2014</h2>
+          <p>NYU Abu Dhabi Campus at Saadiyat Island has opened in 2014</p>
+        </div>
+        <div class="about-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/null/lockdown.png"/></div>
+          <h2>Restriction-Free</h2>
+          <p>This semester marks first full semester without Covid restrictions</p>
+        </div>
+          <div class="about-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/null/crowd--v2.png"/></div>
+          <h2>Student Community</h2>
+          <p>2100 NYUAD students in the AY 2022-2023 <br><br></p>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section id="gallery">
+    <div class="film container">
+      <div class="film-header">
+        <h1 class="section-title"><span>Gallery</span></h1>
+      </div>
+      <div class = "image_slider"> <!-- Image Slider using HTML, CSS, and JS -->
+    
+        <div class="image_slider__slides">
+            <div class="image_slider__slide active">
+              <img src="1.jpeg" alt="NYUAD Campus in the morning" /> <!-- Three images in total are used-->
+            </div>
+            <div class="image_slider__slide">
+              <img src="2.jpg" alt="NYUAD Highline" />
+            </div>
+          <div class="image_slider__slide">
+            <img src="3.jpg" alt="NYUAD Campus at Night" />
+          </div>
+        </div>
+        <div id="image_nav-button--prev" class="image_slider__nav-button"></div> <!--First navigation way to slide by prev/next buttons-->
+        <div id="image_nav-button--next" class="image_slider__nav-button"></div>
+        <div class="image_slider__nav">
+          <div class="image_slider__navlink active"></div> <!--Second navigation way to slide by clicking to a particular circle -->
+          <div class="image_slider__navlink"></div>
+          <div class="image_slider__navlink"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1> <!-- Contact Information Section -->
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/null/paper-plane.png"/></div>
+          <div class="contact-info">
+            <h1>Creator</h1>
+            <h2>Dariga Shokayeva</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>dariga.shokayeva@nyu.edu</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>NYU Abu Dhabi <br> Abu Dhabi, United Arab Emirates</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>D</span>ariga <span>S</span>hokayeva</h1>
+      </div>
+      </div>
+      <p>Copyright © 2023 Dariga. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
