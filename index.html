@@ -1,17 +1,170 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Dariga's Image</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>NYUAD @ 9am by Dariga</title>
 </head>
+
 <body>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1283.19 1026.59"><defs><style>.cls-1{fill:#fff;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5{stroke:#000;stroke-miterlimit:10;}.cls-3{fill:#30005c;}.cls-4{fill:#360073;}.cls-5{fill:#510000;}.cls-6{font-size:12px;}.cls-6,.cls-7{font-family:AdobeArabic-Regular, Adobe Arabic;}.cls-7{font-size:60px;}</style></defs><polygon id = "poly" class="cls-1" points="744.94 504.49 292.93 504.49 507.94 345.49 744.94 504.49"/><path class="cls-1" d="M207.94,199.49c1,140,300,146,300,146H204.17c-4.67-3.66-32.44-26.16-35.23-65C165.39,231.11,205.5,201.24,207.94,199.49Z"/><polygon class="cls-2" points="292.94 643.49 472.94 756.49 472.94 643.49 292.94 643.49"/><path class="cls-3" d="M292.93,504.49v139h452L1281.44,1l-1280,4L6.42,1c25,400.78,48.46,542.42,69.52,542.5,28.61.1,42.55-261.12,93.5-263.32,23.66-1,45.7,54.21,61.5,105.32Z"/><path class="cls-4" d="M7.94,738.49l446,223,291-318-334,74.08-268,39.92A417.82,417.82,0,0,0,1.44,1025c81.72-339.94,206.34-444.17,303.5-477.5,134.39-46.11,246.6,33,432.21-27.88C862.86,478.35,948.4,397.06,998,340.43L577.2,3.16,276.39,472.73Z"/><path class="cls-1" d="M997.89,340.43,905.19,1025l376.14-435.78L453.83,961.49,655.75,1025l625.58-44.77L1002.94,345.49,997.89,3.16C347.38,333.06,262.33,435.88,276.28,472.73c13.73,36.24,141,55.58,790.55-110.24"/><path class="cls-5" d="M1037.88,369l-35-27.93,175.07,121.43a228.83,228.83,0,0,0-61-74c-47.41-37.44-97.08-45.71-119-48"/><line class="cls-1" x1="981.36" y1="462.49" x2="1177.94" y2="462.49"/><text class="cls-6" transform="translate(429.16 368.99)">chaos</text><text/><text class="cls-7" transform="translate(703.26 251.01)">chaos</text></svg>
-  <div id = "textbox"></div>
-  </body>
- <script>
-   let text_interaction = document.getElementById("poly");
-   text_interaction.addEventListener("click", () => {
-     document.getElementById("textbox").innerText = "More";
-   })
-  </script>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#home">
+            <h1>NYUAD <span> @ </span> 9 am</h1> <!-- Logo -->
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul> <!-- Navigation bar -->
+            <li><a href="#home" data-after="Home">Home</a></li>
+            <li><a href="#film" data-after="film">Film</a></li>
+            <li><a href="#about_campus" data-after="about_campus">About</a></li>
+            <li><a href="#gallery" data-after="gallery">Gallery</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- home Section  -->
+  <section id="home">
+    <div class="home container">
+      <div>
+        <h1>Welcome to <span></span></h1>
+        <h1> the Film Project<span></span></h1> <!-- This label appears gradually when the user visits the website-->
+        <h1>NYU AD @ 9 am <span></span></h1>
+        <a href="#film" type="button" class="cta">Watch Now</a>
+      </div>
+    </div>
+  </section>
+  <!-- End home Section  -->
+
+
+  <!-- film Section -->
+  <section id="film">
+    <div class="film container">
+      <div class="film-header">
+        <h1 class="section-title">30MFF <span>film</span></h1>
+      </div>
+      <p> Click to play to enjoy morning at NYUAD with me!</p>
+      <div class="all-film">
+        <video width = "800px" height="600px"controls> <!-- 30 MFF Video Inserted in the Website-->
+          <source src="d6058_30mff.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+  <!-- End film Section -->
+  <!-- about Section -->
+  <section id="about_campus">
+    <div class="about_campus container">
+      <div class="about-top">
+        <h1 class="section-title"><span>About </span>Campus</h1> <!-- Quick intro about campus-->
+      </div>
+      <div class="about-bottom">
+        <div class="about-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/null/rocket.png"/></div>
+          <h2>Open Since 2014</h2>
+          <p>NYU Abu Dhabi Campus at Saadiyat Island has opened in 2014</p>
+        </div>
+        <div class="about-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/null/lockdown.png"/></div>
+          <h2>Restriction-Free</h2>
+          <p>This semester marks first full semester without Covid restrictions</p>
+        </div>
+          <div class="about-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/null/crowd--v2.png"/></div>
+          <h2>Student Community</h2>
+          <p>2100 NYUAD students in the AY 2022-2023 <br><br></p>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section id="gallery">
+    <div class="film container">
+      <div class="film-header">
+        <h1 class="section-title"><span>Gallery</span></h1>
+      </div>
+      <div class = "image_slider"> <!-- Image Slider using HTML, CSS, and JS -->
+    
+        <div class="image_slider__slides">
+            <div class="image_slider__slide active">
+              <img src="1.jpeg" alt="NYUAD Campus in the morning" /> <!-- Three images in total are used-->
+            </div>
+            <div class="image_slider__slide">
+              <img src="2.jpg" alt="NYUAD Highline" />
+            </div>
+          <div class="image_slider__slide">
+            <img src="3.jpg" alt="NYUAD Campus at Night" />
+          </div>
+        </div>
+        <div id="image_nav-button--prev" class="image_slider__nav-button"></div> <!--First navigation way to slide by prev/next buttons-->
+        <div id="image_nav-button--next" class="image_slider__nav-button"></div>
+        <div class="image_slider__nav">
+          <div class="image_slider__navlink active"></div> <!--Second navigation way to slide by clicking to a particular circle -->
+          <div class="image_slider__navlink"></div>
+          <div class="image_slider__navlink"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1> <!-- Contact Information Section -->
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/null/paper-plane.png"/></div>
+          <div class="contact-info">
+            <h1>Creator</h1>
+            <h2>Dariga Shokayeva</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>dariga.shokayeva@nyu.edu</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>NYU Abu Dhabi <br> Abu Dhabi, United Arab Emirates</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>D</span>ariga <span>S</span>hokayeva</h1>
+      </div>
+      </div>
+      <p>Copyright © 2023 Dariga. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
 </html>
